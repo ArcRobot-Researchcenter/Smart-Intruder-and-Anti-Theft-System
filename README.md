@@ -24,6 +24,28 @@ This solution provides affordable, subscription-free, and reliable smart securit
 ✅ Works without constant internet connection
 ✅ Compact and solar-compatible design
 
+# 🧠 System Workflow
+
+User arms the system via the SinricPro mobile app.
+
+The PIR sensor continuously monitors for motion.
+
+When motion is detected:
+
+Alarm (buzzer + red LED) is triggered.
+
+SMS alert is sent instantly via EbulkSMS API.
+
+The system can be remotely disarmed or reset.
+
+# 💻 Software & Technology Stack
+
+Language: C++ (Arduino IDE)
+
+Microcontroller: ESP32
+
+APIs: EbulkSMS API
+
 
 # 👨‍💻 Developer
 
