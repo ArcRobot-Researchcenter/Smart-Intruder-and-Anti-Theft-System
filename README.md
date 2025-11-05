@@ -51,6 +51,33 @@ Microcontroller: ESP32
 
 APIs: EbulkSMS API
 
+# 📂 Project Structure
+Smart-Intruder-System/
+│
+├── Smart_Intruder_System.ino       # Main Arduino code
+├── /images                         # Product and circuit images
+├── /docs                           # Presentation & report files
+└── README.md                       # Project overview (this file)
+
+# 🔔 Setup Instructions
+
+1. Clone the repository
+
+git clone https://github.com/yourusername/Smart-Intruder-System.git
+
+2. Open the project in Arduino IDE.
+
+3. Install required libraries (WiFi, HTTPClient, ArduinoJson, SinricPro).
+
+4. Replace the following credentials in the code:
+
+5. Wi-Fi SSID & Password
+
+6. EbulkSMS Username & API Key
+
+7. SinricPro App Key, Secret, and Device ID
+
+8. Upload to your ESP32 and power on the system.
 
 # 👨‍💻 Developer
 
