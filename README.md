@@ -79,6 +79,66 @@ git clone https://github.com/yourusername/Smart-Intruder-System.git
 
 8. Upload to your ESP32 and power on the system.
 
+
+# 📸 Screenshoot of the function:
+
+The system detects motion, activates alarm, and sends an SMS alert instantly to the user’s phone.
+
+<p align="center">
+  <img src="https://github.com/ArcRobot-Researchcenter/Smart-Intruder-and-Anti-Theft-System/blob/main/image/Mobile%20app%20for%20theft%20system.jpg" width="30%" />
+  <img src="https://github.com/ArcRobot-Researchcenter/Smart-Intruder-and-Anti-Theft-System/blob/main/image/Anti-theft-system.png" width="30%" />
+  <img src="https://github.com/ArcRobot-Researchcenter/Smart-Intruder-and-Anti-Theft-System/blob/main/image/intruder-alert.jpg" width="30%" />
+</p>
+
+
+# Impact & Vision
+
+This project was developed to address rising burglary incidents and limited access to affordable smart security in developing regions.
+Our goal is to make low-cost, locally built IoT devices accessible to every Nigerian household and business.
+
+# Solution Architecture / How It Works
+
+The Smart Intruder and Anti-Theft System combines hardware sensors, IoT control, and cloud communication to provide real-time intrusion detection and instant alerts.
+It follows a simple but powerful 3-layer architecture — Sensing Layer, Processing Layer, and Communication Layer.
+
+# System Architecture Overview
+
+1️⃣ Sensing Layer (Input Stage)
+
+The PIR motion sensor continuously scans for movement within its detection range.
+
+When motion is detected, it sends a HIGH signal to the ESP32 microcontroller.
+
+2️⃣ Processing Layer (Decision Stage)
+
+The ESP32 processes the sensor input.
+
+If the system is armed, the microcontroller:
+
+Activates the alarm outputs (buzzer + red LED).
+
+Triggers the SMS notification function.
+
+Sends a status update to the SinricPro cloud (for app control).
+
+3️⃣ Communication Layer (Notification Stage)
+
+The ESP32 uses Wi-Fi connectivity to reach:
+
+EbulkSMS API, which sends an SMS alert to the user’s phone number.
+
+SinricPro platform, enabling remote arming/disarming through a mobile app or voice assistant.
+
+4️⃣ Output Layer (Response Stage)
+
+The system gives an immediate audible and visual alert (buzzer + LED).
+
+The owner receives an SMS alert like:
+
+“⚠️ ALERT: Motion detected at your home! Take action immediately.”
+
+The system resets automatically after a short interval (e.g., 30 seconds).
+
 # 👨‍💻 Developer
 
 Name: Abudlrahaman Raji
