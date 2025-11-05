@@ -90,6 +90,14 @@ The system detects motion, activates alarm, and sends an SMS alert instantly to 
   <img src="https://github.com/ArcRobot-Researchcenter/Smart-Intruder-and-Anti-Theft-System/blob/main/image/intruder-alert.jpg" width="30%" />
 </p>
 
+# Wireframe Design , Figma prototyping uisng wokwi ,  Hardware Sketch
+
+<p align="center">
+  <img src="https://github.com/ArcRobot-Researchcenter/Smart-Intruder-and-Anti-Theft-System/blob/main/image/Anti-theft-system2.png" width="30%" />
+  <img src="https://github.com/ArcRobot-Researchcenter/Smart-Intruder-and-Anti-Theft-System/blob/main/image/Anti-theft-system.png%20simulator.png" width="30%" />
+  <img src="https://github.com/ArcRobot-Researchcenter/Smart-Intruder-and-Anti-Theft-System/blob/main/image/circtut.jpg" width="30%" />
+</p>
+
 
 # Impact & Vision
 
