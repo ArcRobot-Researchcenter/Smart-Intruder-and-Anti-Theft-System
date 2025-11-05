@@ -16,7 +16,9 @@ Built on the ESP32 microcontroller, the system integrates:
 This solution provides affordable, subscription-free, and reliable smart security for homes, shops, hostels, and offices empowering individuals and SMEs to secure their spaces efficiently.
 
 # Click to watch demo Testing 
-https://youtu.be/QvYmHDUJSlY
+
+[![Watch the video](https://img.youtube.com/vi/QvYmHDUJSlY/0.jpg)](https://youtu.be/QvYmHDUJSlY)
+
 
 # ⚙️ Features
 
